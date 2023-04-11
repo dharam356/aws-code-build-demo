@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      echo "Pre-build completed"
+  build:
+    commands:
+      mvn clean package
+      echo "Build package completed"
+  post_build:
+    commands:
+      echo "Build successfully completed"
