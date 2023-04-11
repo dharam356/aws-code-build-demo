@@ -46,5 +46,6 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>aws-cicd-code-build</finalName>
     </build>
 </project>

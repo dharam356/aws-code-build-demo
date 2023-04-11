@@ -11,3 +11,7 @@ phases:
   post_build:
     commands:
       - echo "Build successfully completed"
+artifacts:
+  files:
+    - target/aws-cicd-code-build.jar
+  discard-paths: yes
