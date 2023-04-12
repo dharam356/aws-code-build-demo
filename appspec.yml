@@ -22,5 +22,5 @@ hooks:
       runas: ec2-user
   ValidateService:
     - location: scripts/server_validate.sh
-      timeout: 60
+      timeout: 200
       runas: ec2-user
