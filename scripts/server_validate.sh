@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 while [ true ]
 do
-    if [ "$(curl -s http://localhost:5000)" = '{"status":"OK"}' ]
+    if [ "$(curl -s http://localhost:8008)" = '{"status":"OK"}' ]
     then
         exit 0
     else
