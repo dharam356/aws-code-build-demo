@@ -14,4 +14,6 @@ phases:
 artifacts:
   files:
     - target/aws-cicd-code-build.jar
+    - scripts/*.sh
+    - appspec.yml
   discard-paths: yes
