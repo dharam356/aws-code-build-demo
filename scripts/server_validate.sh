@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-export status=$(curl --write-out "\%{http_code}" --silent --output /dev/null http://localhost:8008)
+export status=$(curl --write-out %{http_code} --silent --output /dev/null http://localhost:8008)
 echo ${status}
 while true
 do
