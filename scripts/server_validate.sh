@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-export status=$(curl --write-out %{http_code} --silent --output /dev/null http://localhost:8008)
+export status=$(curl --write-out %{http_code} --silent --output /dev/null http://ec2-3-82-219-33.compute-1.amazonaws.com:8008)
 echo ${status}
 while true
 do
